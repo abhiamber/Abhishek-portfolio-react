@@ -17,14 +17,14 @@ function Navbar() {
 
   const [colorChange, setColorchange] = useState(false);
 
-    const changeNavbarColor = () => {
-      if (window.scrollY >= 15) {
-        setColorchange(true);
-      } else {
-        setColorchange(false);
-      }
-    };
-    console.log("dbhj")
+  const changeNavbarColor = () => {
+    if (window.scrollY >= 15) {
+      setColorchange(true);
+    } else {
+      setColorchange(false);
+    }
+  };
+  console.log("dbhj");
 
   function HandleHamberg(data) {
     setHam(!ham);

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import style from "../Style/Home.module.css";
 import About from "./About";
+import Skills from "./Skills"
 
 function Home() {
   return (
@@ -19,6 +20,7 @@ function Home() {
 
       <div className="abooutSection">
         <About />
+        <Skills/>
       </div>
     </div>
   );

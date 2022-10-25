@@ -1,11 +1,9 @@
-import { useSelector } from "react-redux";
 import style from "../Style/about.module.css";
 import { useLocation } from "react-router-dom";
 import profile from "../image/profile.png";
 
 function About() {
   const location = useLocation();
-  var { about } = useSelector((store) => store.about);
 
   return (
     <div
