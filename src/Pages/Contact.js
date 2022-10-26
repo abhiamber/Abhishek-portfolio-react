@@ -3,13 +3,35 @@ import { useLocation } from "react-router-dom";
 import { TfiEmail } from "react-icons/tfi";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { MdCall } from "react-icons/md";
+import React, { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
 
 function Contact() {
   const location = useLocation();
 
-  const handleSubmit=()=>{
-    
-  }
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    console.log()
+
+    emailjs
+      .sendForm(
+        "service_d072n06",
+        "template_tvrw2fl",
+        form.current,
+        "1JaJfeovVZk3Od327"
+      )
+      .then(
+        (result) => {
+          e.target[0].value && e.target[1].value && e.target[2].value && e.target[3].value?alert("Successfull"):alert("Please fill the form")
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
 
   return (
     <div
@@ -65,12 +87,12 @@ function Contact() {
           <div className={style.messageme}>
             <h1>Message me</h1>
             <div className={style.formsection}>
-              <form  onSubmit={handleSubmit}>
-                <input type="text" placeholder="Name" /> <br />
-                <input type="email" placeholder="Email" /> <br />
-                <input type="text" placeholder="Subject" /> <br />
-                <textArea type="text" placeholder="Message" /> <br />
-                <input type="submit" value="Send message" />
+              <form ref={form} onSubmit={sendEmail}>
+                <input type="text" name="user_name" placeholder="Name" /><br />
+                <input type="email" name="user_email" placeholder="Email" /><br />
+                <input type="text" name="subject"  placeholder="Subject"/><br />
+                <textarea  type="text" name="message"  placeholder="Message" /><br />
+                <input type="submit" value="Send" />
               </form>
             </div>
           </div>
@@ -80,3 +102,11 @@ function Contact() {
   );
 }
 export default Contact;
+
+// <form  onSubmit={handleSubmit}>
+// <input type="text" placeholder="Name" /> <br />
+// <input type="email" placeholder="Email" /> <br />
+// <input type="text" placeholder="Subject" /> <br />
+// <textArea type="text" placeholder="Message" /> <br />
+// <input type="submit" value="Send message" />
+// </form>

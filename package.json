@@ -5,6 +5,7 @@
   "private": true,
   "dependencies": {
     "@chakra-ui/react": "^2.3.6",
+    "@emailjs/browser": "^3.7.0",
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
