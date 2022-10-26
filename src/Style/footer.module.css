@@ -1,0 +1,18 @@
+
+.footer{
+    background: black;
+    color: whitesmoke;
+    text-align: center;
+}
+.footer {
+    color: whitesmoke;
+    min-height: 50px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Ubuntu", sans-serif;
+    width: 100%;
+    position: absolute;
+    top: 510vh;
+    background: #000000; /* fallback for old browsers */
+   }
+  

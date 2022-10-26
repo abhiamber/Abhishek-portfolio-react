@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Footer } from "../component/footer";
 import style from "../Style/Home.module.css";
 import About from "./About";
 import Contact from "./Contact";
