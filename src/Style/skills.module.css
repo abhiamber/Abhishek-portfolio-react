@@ -59,7 +59,7 @@
   margin-bottom: 70px;
 }
 .profiles {
-  width: 70%;
+  width: 80%;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(4,1fr);

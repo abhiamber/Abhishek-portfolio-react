@@ -1,6 +1,5 @@
 import style from "../Style/skills.module.css";
 import { useLocation } from "react-router-dom";
-import profile from "../image/profile.png";
 
 function Skills() {
   const location = useLocation();
