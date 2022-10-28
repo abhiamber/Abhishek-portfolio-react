@@ -24,11 +24,7 @@ function About() {
 
             <h3> I'm Abhishek Kumar Amber and I'm a Problem Solver | Coder | Web Developer
             <p>
-            A passionate Full Stack Web Developer, Dedicated to developing
-            robust applications. Extensive expertise in website architecture, design,
-            and web design, and web API designs. Problem-solving mindset with
-            a goal to optimize my application for better stability and speed.
-            Love to work in a team.
+            A passionate Full Stack Web Developer, Dedicated to developing robust applications. Extensive expertise in website architecture, design, and web design, and web API designs. Problem-solving mindset with a goal to optimize my application for better stability and speed. Love to work in a team.
           </p>
 
             
