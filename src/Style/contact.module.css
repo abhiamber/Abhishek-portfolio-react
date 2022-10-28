@@ -118,7 +118,7 @@ word-break: break-word;
   
   @media (min-width: 20px) and (max-width: 480px) {
     .containers{
-      top: 970vh;
+      top: 701vh;
   
     }
     .title {
