@@ -3,7 +3,7 @@ import { useLocation } from "react-router-dom";
 import { TfiEmail } from "react-icons/tfi";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { MdCall } from "react-icons/md";
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 function Contact() {
@@ -13,9 +13,9 @@ function Contact() {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    console.log()
 
-    emailjs
+    if(e.target[0].value && e.target[1].value && e.target[2].value && e.target[3].value){
+      emailjs
       .sendForm(
         "service_d072n06",
         "template_tvrw2fl",
@@ -24,13 +24,19 @@ function Contact() {
       )
       .then(
         (result) => {
-          e.target[0].value && e.target[1].value && e.target[2].value && e.target[3].value?alert("Successfull"):alert("Please fill the form")
+          alert("Successfull")
           console.log(result.text);
         },
         (error) => {
           console.log(error.text);
         }
       );
+
+    }else{
+      alert("Please fill the form") 
+       }
+
+    
   };
 
   return (

@@ -18,17 +18,17 @@ function Navbar() {
   const [colorChange, setColorchange] = useState(false);
 
   const changeNavbarColor = () => {
-    if (window.scrollY >= 1) {
+    if (window.scrollY > 0) {
+      console.log(window.scrollY)
       setColorchange(true);
     } else {
       setColorchange(false);
     }
   };
-  console.log("dbhj");
 
   function HandleHamberg(data) {
     setHam(!ham);
-    // dispatch(aboutClick(data));
+    
   }
 
   useEffect(() => {
@@ -41,7 +41,7 @@ function Navbar() {
     >
       <div className={style.Navbar}>
         <div className={style.logo}>
-          <Link to="/">Abhishek Kumar Amber</Link>
+          <Link to="/">Abhishek Amber</Link>
         </div>
         <div className={ham ? style.hambergoperation : style.navbarsection}>
           {ham ? (
@@ -68,7 +68,7 @@ function Navbar() {
         </div>
 
         <div className={style.hamberg}>
-          <FiAlignJustify onClick={HandleHamberg} />
+          <FiAlignJustify onClick={()=> HandleHamberg("hambergClicked")} />
         </div>
       </div>
     </div>

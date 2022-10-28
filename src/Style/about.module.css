@@ -10,17 +10,17 @@
   width: 100%;
   position: absolute;
   top: 100vh;
-  background: #000000; /* fallback for old browsers */
+  background: #000000; 
   background: -webkit-linear-gradient(
     to bottom,
     #434343,
     #000000
-  ); /* Chrome 10-25, Safari 5.1-6 */
+  );
   background: linear-gradient(
     to bottom,
     #434343,
     #000000
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  ); 
 }
 
 .about {
@@ -28,36 +28,37 @@
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: whitesmoke;
 
-  height: 101vh;
+  height: 100vh;
   min-height: 500px;
   background-size: cover;
   background-attachment: fixed;
   font-family: "Ubuntu", sans-serif;
   width: 100%;
   position: absolute;
-  background: #3c3b3f; /* fallback for old browsers */
-  background: #000000; /* fallback for old browsers */
+  background: #3c3b3f; 
+  background: #000000;
   background: -webkit-linear-gradient(
     to bottom,
     #434343,
     #000000
-  ); /* Chrome 10-25, Safari 5.1-6 */
+  ); 
   background: linear-gradient(
     to bottom,
     #434343,
     #000000
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  ); 
 }
 
 .titles > p {
-  margin-top: 110px;
+  margin-top: 80px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: whitesmoke;
   font-size: 2.5em;
   font-weight: 400;
-  text-decoration: underline;
+  text-decoration: underline 2px;
   text-align: center;
+  text-underline-offset: 12px;
 }
 .profiles {
   width: 80%;
@@ -75,10 +76,16 @@
   width: 60%;
   font-weight: 100;
   text-align: justify;
-
+  font-size: 23px;
+}
+.profiles > h3>p{
+  font-size: 20px;
 }
 
-@media (min-width: 210px) and (max-width: 480px) {
+@media (min-width: 20px) and (max-width: 480px) {
+  .about,.containers{
+    height: 190vh;
+  }
   .title {
     margin-top: 230px;
     margin-left: 0px;
@@ -87,14 +94,56 @@
     font-size: 25px;
     text-align: center;
   }
+  .profiles>img{
+    width: 50%;
+    height: 100%;
+  }
+  .profiles {
+    width: 100%;
+    margin: auto;
+    display: block;
+   }
+   .profiles > h3 {
+    margin: auto;
+    margin-top: 30px;
+    /* margin-bottom: 100px; */
+  
+    width: 85%;
+    font-weight: 100;
+    text-align: justify;
+  
+  }
+
+ 
 }
 
 @media (min-width: 480px) and (max-width: 990px) {
+  .about,.containers{
+    height: 145vh;
+  }
   .title {
-    margin-top: 170px;
-    margin-left: 55px;
+    margin-top: 230px;
+    margin-left: 0px;
     line-height: 50px;
-    font-size: 30px;
-    text-align: initial;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+  }
+  .profiles>img{
+    width: 30%;
+    height: 100%;
+  }
+  .profiles {
+    width: 85%;
+    margin: auto;
+    gap: 30px;
+   }
+   .profiles > h3 {
+    margin: auto;
+    margin-top: 30px;  
+    width: 85%;
+    font-weight: 100;
+    text-align: justify;
+  
   }
 }

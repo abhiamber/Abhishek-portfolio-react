@@ -22,10 +22,12 @@ function Home() {
       </div>
 
       <div className="abooutSection">
-        <About />
-        <Skills/>
-        <Project/>
-        <Contact/>
+      
+        <About  className={style.about}/>
+        <Skills className={style.Skills}/>
+        <Project className={style.Project}/>
+        <Contact className={style.Contact}/>
+        <Footer className={style.Footer}/>
       </div>
     </div>
   );
