@@ -83,8 +83,8 @@
 }
 
 @media (min-width: 20px) and (max-width: 480px) {
-  .about,.containers{
-    height: 190vh;
+.containers{
+    top: 50vh;
   }
   .title {
     margin-top: 230px;
@@ -118,8 +118,8 @@
 }
 
 @media (min-width: 480px) and (max-width: 990px) {
-  .about,.containers{
-    height: 190vh;
+  .containers{
+    top: 50vh;
   }
   .title {
     margin-top: 230px;

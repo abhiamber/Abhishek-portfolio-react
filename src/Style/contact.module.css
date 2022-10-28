@@ -118,7 +118,7 @@ word-break: break-word;
   
   @media (min-width: 20px) and (max-width: 480px) {
     .containers{
-      top: 701vh;
+      top:585%;
   
     }
     .title {
@@ -129,9 +129,7 @@ word-break: break-word;
       font-size: 25px;
       text-align: center;
     }
-    .about{
-      height: 230vh;
-    }
+    
     .formsection>form>input,.formsection>form>textarea{
       width: 300px;
       padding: 10px ;
