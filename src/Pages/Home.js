@@ -1,10 +1,11 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { Footer } from "../component/footer";
 import style from "../Style/Home.module.css";
 import About from "./About";
 import Contact from "./Contact";
 import Project from "./Project";
 import Skills from "./Skills"
+// import pdf from "../../src/resume/resume.pdf"
 
 function Home() {
   return (
@@ -15,9 +16,9 @@ function Home() {
 
           <h2> Full Stack Web Developer</h2>
 
-          <Link>
+          <a href="https://drive.google.com/file/d/1M3hLDMToWV3vpjh5AjfpCT48AN1DyFgE/view?usp=sharing" target="_blank" rel="noopener noreferrer">
             <button>Resume</button>
-          </Link>
+          </a>
         </div>
       </div>
 
@@ -33,3 +34,5 @@ function Home() {
   );
 }
 export default Home;
+
+// https://drive.google.com/file/d/1M3hLDMToWV3vpjh5AjfpCT48AN1DyFgE/view?usp=sharing

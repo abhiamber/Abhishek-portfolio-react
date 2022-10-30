@@ -6,16 +6,16 @@
     color: rgb(231, 229, 229);
     min-height: 50px;
     width: 100%;
-    position: absolute;
-    top: 503vh;
+ 
     background: #131212; 
-    padding-top: 24px;
+    padding-top: 14px;
+    margin-top: -2px;
   }
   
  
   
-  
-  @media (min-width: 210px) and (max-width: 480px) {
+/*   
+  @media (min-width: 10px) and (max-width: 480px) {
   
     .footer{
       top: 720%;
@@ -25,10 +25,7 @@
   
   @media (min-width: 480px) and (max-width: 990px) {
    
-    .footer{
-      top: 970vh;
-  
-    }
-  }
+   
+  } */
   
   

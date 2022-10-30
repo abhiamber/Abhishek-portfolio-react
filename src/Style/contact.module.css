@@ -1,15 +1,14 @@
 .containers {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
       Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    height: auto;
+    height: 100vh;
     color: whitesmoke;
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
     font-family: "Ubuntu", sans-serif;
     width: 100%;
-    position: absolute;
-    top: 409vh;
+ 
     background: #000000; 
   background: -webkit-linear-gradient(
     to bottom,
@@ -22,19 +21,20 @@
     #000000
   ); 
 padding-bottom: 30px;
+margin-top: -40px;
+
     }
   
   .about {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
       Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     color: whitesmoke;
-    height: auto;
+    height: 100vh;
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
     font-family: "Ubuntu", sans-serif;
     width: 100%;
-    position: absolute;
     background: #000000;
     background: -webkit-linear-gradient(
       to bottom,
@@ -46,16 +46,17 @@ padding-bottom: 30px;
       #434343,
       #000000
     ); 
+    
       }
   
   .titles > p {
-    margin-top: 100px;  
+    padding-top: 60px;  
     color: rgb(240, 238, 238);
     font-size: 2.5em;
     font-weight: 400;
-    text-decoration: underline;
+      text-decoration: underline 2px;
     text-align: center;
-    margin-bottom: 40px;
+    text-underline-offset: 12px;
   }
 
   .profiles{
@@ -118,17 +119,11 @@ word-break: break-word;
   
   @media (min-width: 20px) and (max-width: 480px) {
     .containers{
-      top:585%;
+      height: auto;
+      padding-bottom: 20px;
   
     }
-    .title {
-      margin-top: 230px;
-      margin-left: 0px;
-      line-height: 50px;
-      font-weight: 400;
-      font-size: 25px;
-      text-align: center;
-    }
+    
     
     .formsection>form>input,.formsection>form>textarea{
       width: 300px;
@@ -159,18 +154,11 @@ word-break: break-word;
   
   @media (min-width: 480px) and (max-width: 990px) {
     .containers{
-      top: 760vh;
+      height: auto;
+      padding-bottom: 20px;
   
     }
-    .title {
-      margin-top: 170px;
-      margin-left: 55px;
-      line-height: 50px;
-      font-size: 30px;
-      text-align: initial;
-    }
-    .about{
-      height: 200vh;
-    }
+    
+    
   }
   

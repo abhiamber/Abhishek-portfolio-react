@@ -7,6 +7,17 @@
   top: 0;
   left: 0;
   right: 0;
+  background: #222222;
+  background: -webkit-linear-gradient(
+    to bottom,
+    #707070,
+    #5c5c5c
+  ); 
+  background: linear-gradient(
+    to bottom,
+    #5f5e5e,
+    #3d3d3d
+  );
 }
 .containercolorChanges {
   position: fixed;
@@ -31,7 +42,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 50px;
+  padding: 25px 50px;
 }
 .logo > a {
   text-decoration: none;
