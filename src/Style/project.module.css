@@ -125,10 +125,9 @@ padding: 9px;
   
   
   @media (min-width: 20px) and (max-width: 480px) {
-    .containers{
-      top: 317%;
-  
-    }
+   .containers{
+    margin-top: -110px;
+   }
    
     .profiles {
       display: grid;
