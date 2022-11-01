@@ -126,7 +126,7 @@ padding: 9px;
   
   @media (min-width: 20px) and (max-width: 480px) {
    .containers{
-    margin-top: -110px;
+    margin-top: -40px;
    }
    
     .profiles {
@@ -135,14 +135,19 @@ padding: 9px;
       grid-template-rows: repeat(3,1fr);
     }
 
-    .titles>p{
-      margin-top: 110px; 
-       }
+    /* .titles>p{
+      margin-top: 90px; 
+       } */
      
   }
   
   @media (min-width: 480px) and (max-width: 990px) {
-   
+    .titles>p{
+      margin-top: 90px; 
+       }
+       .containers{
+        margin-top: -90px;
+       }
     
     .profiles {
       display: grid;

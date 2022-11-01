@@ -123,6 +123,9 @@ word-break: break-word;
       padding-bottom: 20px;
   
     }
+    .about{
+      height: auto;
+    }
     
     
     .formsection>form>input,.formsection>form>textarea{
@@ -157,6 +160,9 @@ word-break: break-word;
       height: auto;
       padding-bottom: 20px;
   
+    }
+    .about{
+      height: auto;
     }
     
     

@@ -78,6 +78,9 @@
   .containers{
     height: auto;
   }
+  .about{
+    height: auto;
+  }
 
   .profiles>img{
     width: 50%;
@@ -91,8 +94,7 @@
    .profiles > h3 {
     margin: auto;
     margin-top: 20px;
-    padding-bottom: 10px;
-  
+    padding-bottom: 10px;  
     width: 85%;
     font-weight: 100;
     text-align: justify;
