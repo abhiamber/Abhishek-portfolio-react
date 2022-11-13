@@ -22,7 +22,7 @@
 
 .about {
   color: whitesmoke;
-  height: auto;
+  height: 100vh;
   min-height: 500px;
   width: 100%;
   background: #000000; 
@@ -94,6 +94,9 @@
   .containers{
     height: auto;
 
+  }
+  .about{
+    height: auto;
   }
 
   .profiles {

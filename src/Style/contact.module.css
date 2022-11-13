@@ -126,6 +126,17 @@ word-break: break-word;
     .about{
       height: auto;
     }
+    .reactIcon{
+      display: block;
+      margin: auto;
+      text-align: center;
+    }
+    .icon{
+      margin-left: 16px;
+      font-size: 50px;
+      margin-bottom: 20px;
+  }
+    
     
     
     .formsection>form>input,.formsection>form>textarea{

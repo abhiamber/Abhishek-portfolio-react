@@ -51,12 +51,12 @@ function Contact() {
           <div className={style.getintouch}>
             <h1>Get in Touch</h1>
             <div className={style.reactIcon}>
-              <TfiEmail />
+              <TfiEmail className={style.icon} />
               <p>abhiamber191@gmail.com</p>
             </div>
 
             <div className={style.reactIcon}>
-              <AiFillGithub />
+              <AiFillGithub className={style.icon} />
               <p>
                 {" "}
                 <a
@@ -71,7 +71,7 @@ function Contact() {
             </div>
 
             <div className={style.reactIcon}>
-              <AiFillLinkedin />
+              <AiFillLinkedin  className={style.icon}/>
               <p>
                 <a
                   href=" https://www.linkedin.com/in/abhishek-kumar-amber/"

@@ -1,5 +1,6 @@
 // import { Link } from "react-router-dom";
 import { Footer } from "../component/footer";
+import GIthub from "../component/GIthub";
 import style from "../Style/Home.module.css";
 import About from "./About";
 import Contact from "./Contact";
@@ -27,6 +28,7 @@ function Home() {
         <About  className={style.about}/>
         <Skills className={style.Skills}/>
         <Project className={style.Project}/>
+        <GIthub/>
         <Contact className={style.Contact}/>
         <Footer className={style.Footer}/>
       </div>
