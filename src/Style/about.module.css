@@ -94,13 +94,19 @@
    .profiles > h3 {
     margin: auto;
     margin-top: 20px;
-    padding-bottom: 10px;  
-    width: 85%;
+    padding-bottom: 30px;  
+    font-size: 29px;
+    /* width: 85%; */
     font-weight: 100;
     text-align: justify;
+    word-spacing: normal;
   
   }
-
+  .profiles > h3>p{
+    font-size: 25px;
+    word-spacing: normal;
+    
+  }
  
 }
 
@@ -123,4 +129,5 @@
     text-align: justify;
   
   }
+ 
 }

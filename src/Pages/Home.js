@@ -7,6 +7,7 @@ import Contact from "./Contact";
 import Project from "./Project";
 import Skills from "./Skills"
 // import pdf from "../../src/resume/resume.pdf"
+import { TypeAnimation } from 'react-type-animation';
 
 function Home() {
   return (
@@ -15,7 +16,15 @@ function Home() {
         <div className={style.title}>
           <p> Hello, I'm a</p>
 
-          <h2> Full Stack Web Developer</h2>
+          <h2> 
+          
+          <TypeAnimation
+    sequence={['Full Stack Web Developer.', 100, '']}
+    speed={35} 
+    wrapper="h2"
+    
+    repeat={Infinity}
+  /></h2>
 
           <a href="https://drive.google.com/file/d/1M3hLDMToWV3vpjh5AjfpCT48AN1DyFgE/view?usp=sharing" target="_blank" rel="noopener noreferrer">
             <button>Resume</button>
