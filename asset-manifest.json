@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Abhishek-portfolio-react/static/css/main.25c36773.css",
-    "main.js": "/Abhishek-portfolio-react/static/js/main.eaafc0e3.js",
+    "main.css": "/Abhishek-portfolio-react/static/css/main.cb03de64.css",
+    "main.js": "/Abhishek-portfolio-react/static/js/main.c6dfa7ed.js",
     "static/js/787.b217d0ff.chunk.js": "/Abhishek-portfolio-react/static/js/787.b217d0ff.chunk.js",
     "static/media/profile.png.jpg": "/Abhishek-portfolio-react/static/media/profile.png.7638ef7ad6bd82acc584.jpg",
     "index.html": "/Abhishek-portfolio-react/index.html",
-    "main.25c36773.css.map": "/Abhishek-portfolio-react/static/css/main.25c36773.css.map",
-    "main.eaafc0e3.js.map": "/Abhishek-portfolio-react/static/js/main.eaafc0e3.js.map",
+    "main.cb03de64.css.map": "/Abhishek-portfolio-react/static/css/main.cb03de64.css.map",
+    "main.c6dfa7ed.js.map": "/Abhishek-portfolio-react/static/js/main.c6dfa7ed.js.map",
     "787.b217d0ff.chunk.js.map": "/Abhishek-portfolio-react/static/js/787.b217d0ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.25c36773.css",
-    "static/js/main.eaafc0e3.js"
+    "static/css/main.cb03de64.css",
+    "static/js/main.c6dfa7ed.js"
   ]
 }
