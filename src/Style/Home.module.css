@@ -37,6 +37,12 @@ color: #fff;
 }
 .title>h2{
   font-size: 35px;
+  height: 120px;
+  line-height: 50px;
+  padding-right: 5px;
+
+
+
 }
 
 
@@ -53,7 +59,10 @@ color: #fff;
    }
    .title>h2{
     word-break: break-all;
-    font-size: 32px;
+        font-size: 32px;
+    line-height: 50px;
+    height: 100px;
+
   }
   
    

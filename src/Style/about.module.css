@@ -20,9 +20,13 @@
     #000000
   ); 
   margin-top: -40px;
+  word-break: break-all
+
 }
 
 .about {
+  word-break: break-all;
+
   color: whitesmoke;
   height: 100vh;
   min-height: 500px;
@@ -62,15 +66,26 @@
 .profiles > img {
   width: 30%;
 }
-.profiles > h3 {
-  margin-top: 80px;
-  width: 60%;
-  font-weight: 100;
+.textanimation {
+  margin: auto;
+  width: 90%;
   text-align: justify;
-  font-size: 23px;
+  font-size: 28px;
+  height: 50px;
 }
-.profiles > h3>p{
-  font-size: 20px;
+.textPart >p{
+  text-align: justify;
+  width: 90%;
+  margin: auto;
+  padding-top: 40px;
+  font-size: "22px";
+  line-height: 22px;
+
+}
+.textPart{
+  margin-top: 80px;
+  padding-bottom: 30px;
+
 }
 
 @media (min-width: 20px) and (max-width: 480px) {
@@ -78,9 +93,7 @@
   .containers{
     height: auto;
   }
-  .about{
-    height: auto;
-  }
+ 
 
   .profiles>img{
     width: 50%;
@@ -91,21 +104,18 @@
     margin: auto;
     display: block;
    }
-   .profiles > h3 {
-    margin: auto;
-    margin-top: 20px;
-    padding-bottom: 30px;  
-    font-size: 29px;
-    /* width: 85%; */
+   .textanimation {
+    width: 90%;
     font-weight: 100;
     text-align: justify;
-    word-spacing: normal;
+      height: 100px;
+
   
   }
-  .profiles > h3>p{
-    font-size: 25px;
-    word-spacing: normal;
-    
+  .textPart>p{
+    font-size: 19px;
+    word-break: break-all
+
   }
  
 }
@@ -122,12 +132,11 @@
     gap: 30px;
 
    }
-   .profiles > h3 {
-    margin: auto;
-    width: 85%;
-    font-weight: 100;
-    text-align: justify;
-  
+   .textPart>p{
+    font-size: 20px;
+    word-spacing: normal;
+    
   }
+   
  
 }
