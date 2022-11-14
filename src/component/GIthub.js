@@ -8,6 +8,8 @@ const GIthub = () => {
   return (
     <div className={style.githubcontainer}>
 
+    <h1> GitHub Statistics & Calender section</h1>
+
     <div  className='streak' >
     <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=abhiamber&" alt="abhiamber" width="55%"/></p>
 

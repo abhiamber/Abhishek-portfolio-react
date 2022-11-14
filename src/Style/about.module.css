@@ -112,7 +112,10 @@
   }
   .textPart>p{
     font-size: 19px;
-    word-break: break-all
+    word-break: break-all;
+    /* text-align: center; */
+    
+
 
   }
  
@@ -138,7 +141,7 @@
 
   .textanimation {
   
-      height: 100px;  
+      height: 125px;  
   }
    
  

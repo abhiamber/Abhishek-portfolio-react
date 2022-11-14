@@ -37,7 +37,7 @@ color: #fff;
 }
 .title>h2{
   font-size: 35px;
-  height: 120px;
+  height: 60px;
   line-height: 50px;
   padding-right: 5px;
 
@@ -79,5 +79,13 @@ color: #fff;
      line-height: 40px;
    font-size: 30px;
    }
+   .title>h2{
+    word-break: break-all;
+        font-size: 40px;
+    line-height: 50px;
+    height: 110px;
+
+  }
+   
 
  }

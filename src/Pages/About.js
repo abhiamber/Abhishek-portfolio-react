@@ -30,13 +30,13 @@ function About() {
          
           // Same String at the start will only be typed once, initially
           sequence={[
-            "I m Abhishek Kumar Amber Web Developer",
+            "I am Abhishek Kumar Amber Web Developer",
             1000,
-            "I m Abhishek Kumar Amber and I m a Problem Solver ",
+            "I am Abhishek Kumar Amber and I am a Problem Solver ",
             1000,
-            "I m Abhishek Kumar Amber and I m a Coder ",
+            "I am Abhishek Kumar Amber and I am a Coder ",
             1000,
-            "I m Abhishek Kumar Amber and I m a Coder ",
+            "I am Abhishek Kumar Amber and I am a Coder ",
             1000,
           ]}
           speed={30} // Custom Speed from 1-99 - Default Speed: 40
@@ -48,9 +48,7 @@ function About() {
            
 
             <p>
-              A passionate Full Stack Web Developer Dedicated to robust
-              applications. Extensive expertise in website architecture and web
-              design ans web API design. Problem-solving mindset with a goal to
+              A passionate Full Stack Web Developer dedicated to robust applications. Extensive expertise in website architecture and web            design ans web API design. Problem-solving mindset with a goal to
               optimize my application for better stability.
             </p>
           </div>
