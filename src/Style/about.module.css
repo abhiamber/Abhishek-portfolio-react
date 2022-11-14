@@ -108,9 +108,7 @@
     width: 90%;
     font-weight: 100;
     text-align: justify;
-      height: 100px;
-
-  
+      height: 100px;  
   }
   .textPart>p{
     font-size: 19px;
@@ -136,6 +134,11 @@
     font-size: 20px;
     word-spacing: normal;
     
+  }
+
+  .textanimation {
+  
+      height: 100px;  
   }
    
  
