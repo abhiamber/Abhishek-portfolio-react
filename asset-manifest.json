@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Abhishek-portfolio-react/static/css/main.5df6f4e8.css",
-    "main.js": "/Abhishek-portfolio-react/static/js/main.9a89905e.js",
+    "main.js": "/Abhishek-portfolio-react/static/js/main.1743f5e5.js",
     "static/js/787.b217d0ff.chunk.js": "/Abhishek-portfolio-react/static/js/787.b217d0ff.chunk.js",
     "static/media/profile.png.jpg": "/Abhishek-portfolio-react/static/media/profile.png.7638ef7ad6bd82acc584.jpg",
     "index.html": "/Abhishek-portfolio-react/index.html",
     "main.5df6f4e8.css.map": "/Abhishek-portfolio-react/static/css/main.5df6f4e8.css.map",
-    "main.9a89905e.js.map": "/Abhishek-portfolio-react/static/js/main.9a89905e.js.map",
+    "main.1743f5e5.js.map": "/Abhishek-portfolio-react/static/js/main.1743f5e5.js.map",
     "787.b217d0ff.chunk.js.map": "/Abhishek-portfolio-react/static/js/787.b217d0ff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5df6f4e8.css",
-    "static/js/main.9a89905e.js"
+    "static/js/main.1743f5e5.js"
   ]
 }
