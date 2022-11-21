@@ -27,7 +27,7 @@ function Home() {
     repeat={Infinity}
   /></h2>
 
-          <a href="https://drive.google.com/uc?id=1M3hLDMToWV3vpjh5AjfpCT48AN1DyFgE&export=download" target="_blank" rel="noopener noreferrer"  >
+          <a href="https://drive.google.com/uc?id=1M3hLDMToWV3vpjh5AjfpCT48AN1DyFgE&export=download">
             <button>Resume</button>
           </a>
         </div>
