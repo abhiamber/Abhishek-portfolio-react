@@ -65,6 +65,10 @@ function Navbar() {
           <Link onClick={() => HandleHamberg(CONTACT_CLICK)} to="/contact">
             Contact
           </Link>
+
+          <a onClick={() => HandleHamberg("Resume")} href="https://drive.google.com/file/d/1M3hLDMToWV3vpjh5AjfpCT48AN1DyFgE/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+          Resume
+        </a>
         </div>
 
         <div className={style.hamberg}>

@@ -6,7 +6,8 @@ import About from "./About";
 import Contact from "./Contact";
 import Project from "./Project";
 import Skills from "./Skills"
-// import pdf from "../../src/resume/resume.pdf"
+// import Abhishek_Amber_Resume from "../resume/Abhishek_ Amber_Resume.pdf"
+
 import { TypeAnimation } from 'react-type-animation';
 
 function Home() {
@@ -26,7 +27,7 @@ function Home() {
     repeat={Infinity}
   /></h2>
 
-          <a href="https://drive.google.com/file/d/1M3hLDMToWV3vpjh5AjfpCT48AN1DyFgE/view?usp=sharing" target="_blank" rel="noopener noreferrer"  >
+          <a href="https://drive.google.com/uc?id=1M3hLDMToWV3vpjh5AjfpCT48AN1DyFgE&export=download" target="_blank" rel="noopener noreferrer"  >
             <button>Resume</button>
           </a>
         </div>
@@ -47,3 +48,6 @@ function Home() {
 export default Home;
 
 // https://drive.google.com/file/d/1M3hLDMToWV3vpjh5AjfpCT48AN1DyFgE/view?usp=sharing
+
+
+// https://drive.google.com/uc?id=1M3hLDMToWV3vpjh5AjfpCT48AN1DyFgE&export=download
