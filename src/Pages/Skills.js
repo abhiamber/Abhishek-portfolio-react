@@ -46,6 +46,11 @@ function Skills() {
           </div>
 
           <div>
+            <img src="https://chakra-ui.com/og-image.png" alt="Chakra Ui" />
+            <h1>Chakra Ui</h1>
+          </div>
+
+          <div>
             <img
               src="https://chiranjeev-thapliyal.vercel.app/svg/redux.svg"
               alt="Redux"
@@ -75,6 +80,14 @@ function Skills() {
               alt="Mongo db"
             />
             <h1>Mongo DB</h1>
+          </div>
+
+          <div>
+            <img
+              src="https://images.unsplash.com/photo-1654277041218-84424c78f0ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=862&q=80"
+              alt="github"
+            />
+            <h1>GitHub</h1>
           </div>
         </div>
       </div>
