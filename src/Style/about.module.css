@@ -8,20 +8,11 @@
   background-attachment: fixed;
   font-family: "Ubuntu", sans-serif;
   width: 100%;
-  background: #000000; 
-  background: -webkit-linear-gradient(
-    to bottom,
-    #434343,
-    #000000
-  );
-  background: linear-gradient(
-    to bottom,
-    #434343,
-    #000000
-  ); 
+  background: #000000;
+  background: -webkit-linear-gradient(to bottom, #434343, #000000);
+  background: linear-gradient(to bottom, #434343, #000000);
   margin-top: -40px;
-  word-break: break-all
-
+  word-break: break-all;
 }
 
 .about {
@@ -31,18 +22,10 @@
   height: 100vh;
   min-height: 500px;
   width: 100%;
-  background: #3c3b3f; 
+  background: #3c3b3f;
   background: #000000;
-  background: -webkit-linear-gradient(
-    to bottom,
-    #434343,
-    #000000
-  ); 
-  background: linear-gradient(
-    to bottom,
-    #434343,
-    #000000
-  ); 
+  background: -webkit-linear-gradient(to bottom, #434343, #000000);
+  background: linear-gradient(to bottom, #434343, #000000);
 }
 
 .titles > p {
@@ -62,7 +45,6 @@
   padding-top: 30px;
 }
 
-
 .profiles > img {
   width: 30%;
 }
@@ -73,29 +55,25 @@
   font-size: 28px;
   height: 50px;
 }
-.textPart >p{
+.textPart > p {
   text-align: justify;
   width: 90%;
   margin: auto;
   padding-top: 40px;
   font-size: "22px";
   line-height: 22px;
-
 }
-.textPart{
+.textPart {
   margin-top: 80px;
   padding-bottom: 30px;
-
 }
 
 @media (min-width: 20px) and (max-width: 480px) {
-
-  .containers{
+  .containers {
     height: auto;
   }
- 
 
-  .profiles>img{
+  .profiles > img {
     width: 50%;
     height: 100%;
   }
@@ -103,27 +81,22 @@
     width: 100%;
     margin: auto;
     display: block;
-   }
-   .textanimation {
+  }
+  .textanimation {
     width: 90%;
     font-weight: 100;
     text-align: justify;
-      height: 100px;  
+    height: 100px;
   }
-  .textPart>p{
+  .textPart > p {
     font-size: 19px;
     word-break: break-all;
     /* text-align: center; */
-    
-
-
   }
- 
 }
 
 @media (min-width: 480px) and (max-width: 990px) {
- 
-  .profiles>img{
+  .profiles > img {
     width: 30%;
     height: 100%;
   }
@@ -131,18 +104,13 @@
     width: 85%;
     margin: auto;
     gap: 30px;
-
-   }
-   .textPart>p{
+  }
+  .textPart > p {
     font-size: 20px;
     word-spacing: normal;
-    
   }
 
   .textanimation {
-  
-      height: 125px;  
+    height: 125px;
   }
-   
- 
 }

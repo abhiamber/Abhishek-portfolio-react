@@ -92,8 +92,8 @@ function Project() {
             />
             <h1>IdeaKart</h1>
             <p>
-              Ideakart is a site that gives u an idea about the book you want to
-              buy.{" "}
+              Ideakart is a site that gives you an idea about the book you want
+              to buy.{" "}
             </p>
             Tech Stack: <span>HTML5, CSS 3, JavaScript</span>
             <br /> <br />
@@ -124,13 +124,13 @@ function Project() {
 
           <div>
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKRK3_0BbnDwXGSnP60vOKgHH9vqxRyw85KQ&usqp=CAU"
+              src="https://media.istockphoto.com/photos/children-visiting-the-library-picture-id1421824569?b=1&k=20&m=1421824569&s=170667a&w=0&h=LrBS7IR6nlDn1mi-_W5j1inArGZnG-nsgYSq7kF7okU="
               alt="Ideakart"
             />
             <h1>Ideakart</h1>
             <p>
-              Ideakart is a site that gives u an idea about the book you want to
-              buy.
+              Ideakart is a site that gives you an idea about the book you want
+              to buy.
             </p>
             Tech Stack:{" "}
             <span>HTML5, CSS 3, React Js, Chakra UI, Express JS, MongoDb</span>

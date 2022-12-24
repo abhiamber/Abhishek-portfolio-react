@@ -19,7 +19,7 @@ function Navbar() {
 
   const changeNavbarColor = () => {
     if (window.scrollY > 0) {
-      console.log(window.scrollY)
+      console.log(window.scrollY);
       setColorchange(true);
     } else {
       setColorchange(false);
@@ -28,7 +28,6 @@ function Navbar() {
 
   function HandleHamberg(data) {
     setHam(!ham);
-    
   }
 
   useEffect(() => {
@@ -60,19 +59,24 @@ function Navbar() {
             Skills
           </Link>
           <Link onClick={() => HandleHamberg(PROJECT_CLICK)} to="/project">
-            Project
+            Projects
           </Link>
           <Link onClick={() => HandleHamberg(CONTACT_CLICK)} to="/contact">
             Contact
           </Link>
 
-          <a onClick={() => HandleHamberg("Resume")} href="https://drive.google.com/file/d/1M3hLDMToWV3vpjh5AjfpCT48AN1DyFgE/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-          Resume
-        </a>
+          <a
+            onClick={() => HandleHamberg("Resume")}
+            href="https://drive.google.com/file/d/1M3hLDMToWV3vpjh5AjfpCT48AN1DyFgE/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a>
         </div>
 
         <div className={style.hamberg}>
-          <FiAlignJustify onClick={()=> HandleHamberg("hambergClicked")} />
+          <FiAlignJustify onClick={() => HandleHamberg("hambergClicked")} />
         </div>
       </div>
     </div>
