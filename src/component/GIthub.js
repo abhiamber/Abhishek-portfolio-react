@@ -13,7 +13,7 @@ const GIthub = () => {
             align="center"
             src="https://github-readme-streak-stats.herokuapp.com/?user=abhiamber&"
             alt="abhiamber"
-            width="55%"
+            width={"55%"}
           />
         </p>
       </div>
@@ -35,7 +35,9 @@ const GIthub = () => {
       >
         <GitHubCalendar
           username="abhiamber"
-          year={new Date().getFullYear()}
+          // year={new Date().getFullYear()}
+          color="teal"
+          year={"last"}
           style={{ width: "85%", margin: "auto" }}
         />
       </div>
