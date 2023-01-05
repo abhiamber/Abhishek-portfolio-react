@@ -1,7 +1,7 @@
 import style from "../Style/project.module.css";
 import { useLocation } from "react-router-dom";
 // import skincareimg from "../image/Skincarescreenshot.png";
-import chatappimg from "../image/chatpp.png";
+// import chatappimg from "../image/chatpp.png";
 
 function Project() {
   const location = useLocation();
@@ -212,7 +212,7 @@ function Project() {
             <p>
               This is the chat application where user can create chat one to one
               and in group as well. User can create group and they can remove
-              the pepople from group and they can add bew user as well in the
+              the people from group and they can add new user as well in the
               group.
             </p>
             Tech Stack:{" "}
