@@ -204,7 +204,8 @@ function Project() {
 
           <div>
             <img
-              src="https://images.ctfassets.net/1es3ne0caaid/1AH5nwgf0sOI86umMgYCcq/e2b418338284ffb0afd357f1f081bfdf/flask-vue-sentiment-ui.png"
+              src="https://code-projects.org/wp-content/uploads/2020/11/chat.png"
+              // src={chatappimg}
               alt="chatapp"
             />
             <h1>Chat Application</h1>
