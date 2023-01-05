@@ -1,6 +1,8 @@
 import style from "../Style/project.module.css";
 import { useLocation } from "react-router-dom";
 // import skincareimg from "../image/Skincarescreenshot.png";
+import chatappimg from "../image/chatpp.png";
+
 function Project() {
   const location = useLocation();
 
@@ -191,6 +193,49 @@ function Project() {
                 {" "}
                 <a
                   href="https://timely-cucurucho-1b7757.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live Site
+                </a>{" "}
+              </button>
+            </div>
+          </div>
+
+          <div>
+            <img
+              src="https://images.ctfassets.net/1es3ne0caaid/1AH5nwgf0sOI86umMgYCcq/e2b418338284ffb0afd357f1f081bfdf/flask-vue-sentiment-ui.png"
+              alt="chatapp"
+            />
+            <h1>Chat Application</h1>
+            <p>
+              This is the chat application where user can create chat one to one
+              and in group as well. User can create group and they can remove
+              the pepople from group and they can add bew user as well in the
+              group.
+            </p>
+            Tech Stack:{" "}
+            <span>
+              HTML5, CSS 3, React Js, Chakra UI, Express JS, MongoDb,
+              JWT,socket.io
+            </span>
+            <br /> <br />
+            <div className={style.hoisting}>
+              <button>
+                {" "}
+                <a
+                  href="https://github.com/abhiamber/chat-application"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  Git Repo
+                </a>{" "}
+              </button>
+              <button>
+                {" "}
+                <a
+                  href="https://gleeful-marigold-cd7ebf.netlify.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
