@@ -24,7 +24,7 @@ function Project() {
             <p>
               Tripvillas is one of Asia's largest Holiday Home Rental Companies.
             </p>
-            Tech Stack: <span >HTML5, CSS 3, JavaScript</span>
+            Tech Stack: <span>HTML5, CSS 3, JavaScript</span>
             <br /> <br />
             <div className={style.hoisting}>
               <button>
@@ -235,6 +235,46 @@ function Project() {
                 {" "}
                 <a
                   href="https://gleeful-marigold-cd7ebf.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live Site
+                </a>{" "}
+              </button>
+            </div>
+          </div>
+
+          <div>
+            <img
+              src="https://user-images.githubusercontent.com/102507444/213928090-cbaf214f-8d71-4e0a-b569-4fc2a0e71889.png"
+              alt="Purpelbeauty"
+            />
+            <h1>Purplle</h1>
+            <p>
+              Purplle.com is one of India's largest e-beauty destinations with
+              more than 7 million monthly active users.
+            </p>
+            Tech Stack:{" "}
+            <span>
+              HTML5, CSS 3, React Js, Chakra UI, Express JS, MongoDb, JWT
+            </span>
+            <br /> <br />
+            <div className={style.hoisting}>
+              <button>
+                {" "}
+                <a
+                  href="https://github.com/abhiamber/resonant-dinosaurs-925"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  Git Repo
+                </a>{" "}
+              </button>
+              <button>
+                {" "}
+                <a
+                  href="https://frontend-eight-tawny-20.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
