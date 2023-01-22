@@ -1,97 +1,76 @@
 .containers {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    height: 100vh;
-    color: whitesmoke;
-    min-height: 500px;
-    background-size: cover;
-    background-attachment: fixed;
-    font-family: "Ubuntu", sans-serif;
-    width: 100%;
- 
-    background: #000000; 
-  background: -webkit-linear-gradient(
-    to bottom,
-    #434343,
-    #000000
-  ); 
-  background: linear-gradient(
-    to bottom,
-    #434343,
-    #000000
-  ); 
-padding-bottom: 30px;
-margin-top: -40px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  height: 100vh;
+  color: whitesmoke;
+  min-height: 500px;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Ubuntu", sans-serif;
+  width: 100%;
 
-    }
-  
-  .about {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    color: whitesmoke;
-    height: 100vh;
-    min-height: 500px;
-    background-size: cover;
-    background-attachment: fixed;
-    font-family: "Ubuntu", sans-serif;
-    width: 100%;
-    background: #000000;
-    background: -webkit-linear-gradient(
-      to bottom,
-      #434343,
-      #000000
-    ); 
-    background: linear-gradient(
-      to bottom,
-      #434343,
-      #000000
-    ); 
-    
-      }
-  
-  .titles > p {
-    padding-top: 60px;  
-    color: rgb(240, 238, 238);
-    font-size: 2.5em;
-    font-weight: 400;
-      text-decoration: underline 2px;
-    text-align: center;
-    text-underline-offset: 12px;
-  }
+  background: #000000;
+  background: -webkit-linear-gradient(to bottom, #434343, #000000);
+  background: linear-gradient(to bottom, #434343, #000000);
+  padding-bottom: 30px;
+  margin-top: -40px;
+}
 
-  .profiles{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }
-.reactIcon{
+.about {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: whitesmoke;
+  height: 100vh;
+  min-height: 500px;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Ubuntu", sans-serif;
+  width: 100%;
+  background: #000000;
+  background: -webkit-linear-gradient(to bottom, #434343, #000000);
+  background: linear-gradient(to bottom, #434343, #000000);
+}
+
+.titles > p {
+  padding-top: 80px;
+  color: rgb(240, 238, 238);
+  font-size: 2.5em;
+  font-weight: 400;
+  text-decoration: underline 2px;
+  text-align: center;
+  text-underline-offset: 12px;
+}
+
+.profiles {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.reactIcon {
   display: flex;
   text-align: left;
-font-size: 25px;
-padding: 10px 0;
-flex-wrap: wrap;
-
+  font-size: 25px;
+  padding: 10px 0;
+  flex-wrap: wrap;
 }
-.reactIcon>p{
-margin: 0px 30px;
-text-decoration: none;
-color: white;
-cursor: pointer;
-word-break: break-word;
-
-
-}
-
-.reactIcon>p>a{
+.reactIcon > p {
+  margin: 0px 30px;
   text-decoration: none;
-  color: white;  
-  }
+  color: white;
+  cursor: pointer;
+  word-break: break-word;
+}
 
+.reactIcon > p > a {
+  text-decoration: none;
+  color: white;
+}
 
-.formsection>form>input,.formsection>form>textarea{
+.formsection > form > input,
+.formsection > form > textarea {
   width: 400px;
-  padding: 10px ;
+  padding: 10px;
   margin: 5px;
   border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -100,82 +79,75 @@ word-break: break-word;
   -o-border-radius: 5px;
   font-size: 20px;
 }
-.formsection>form>textarea{
+.formsection > form > textarea {
   padding: 25px 10px;
-
 }
-.formsection>form>input:nth-last-child(1){
+.formsection > form > input:nth-last-child(1) {
   width: 200px;
   cursor: pointer;
   text-align: center;
   margin-bottom: 50px;
 }
 
-.formsection>form>input:nth-last-child(1):hover{
- background-color:#92bcb5 ;
+.formsection > form > input:nth-last-child(1):hover {
+  background-color: #92bcb5;
 }
 
-  /* ******************************* */
-  
-  @media (min-width: 20px) and (max-width: 480px) {
-    .containers{
-      height: auto;
-      padding-bottom: 20px;
-  
-    }
-    .about{
-      height: auto;
-    }
-    .reactIcon{
-      display: block;
-      margin: auto;
-      text-align: center;
-    }
-    .icon{
-      margin-left: 16px;
-      font-size: 50px;
-      margin-bottom: 20px;
+/* ******************************* */
+
+@media (min-width: 20px) and (max-width: 480px) {
+  .containers {
+    height: auto;
+    padding-bottom: 20px;
   }
-    
-    
-    
-    .formsection>form>input,.formsection>form>textarea{
-      width: 300px;
-      padding: 10px ;
-      margin: 5px;
-      border-radius: 5px;
-      -webkit-border-radius: 5px;
-      -moz-border-radius: 5px;
-      -ms-border-radius: 5px;
-      -o-border-radius: 5px;
-      font-size: 20px;
-    }
-    .formsection>form>textarea{
-      padding: 25px 10px;
-    
-    }
-    .reactIcon{
-      margin: 0px;
-    }
-    .reactIcon>p{
-      margin: 0px 20px;
-    }
-    .formsection>form>input,.formsection>form>textarea{
-      width: 90%;
-      margin: 10px auto;
-    }
+  .about {
+    height: auto;
   }
-  
-  @media (min-width: 480px) and (max-width: 990px) {
-    .containers{
-      height: auto;
-      padding-bottom: 20px;
-  
-    }
-    .about{
-      height: auto;
-    }
-    
-    
+  .reactIcon {
+    display: block;
+    margin: auto;
+    text-align: center;
   }
-  
+  .icon {
+    margin-left: 16px;
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+
+  .formsection > form > input,
+  .formsection > form > textarea {
+    width: 300px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 20px;
+  }
+  .formsection > form > textarea {
+    padding: 25px 10px;
+  }
+  .reactIcon {
+    margin: 0px;
+  }
+  .reactIcon > p {
+    margin: 0px 20px;
+  }
+  .formsection > form > input,
+  .formsection > form > textarea {
+    width: 90%;
+    margin: 10px auto;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 990px) {
+  .containers {
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .about {
+    height: auto;
+  }
+}

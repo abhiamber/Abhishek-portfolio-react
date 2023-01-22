@@ -46,8 +46,19 @@ function Skills() {
           </div>
 
           <div>
-            <img src="https://chakra-ui.com/og-image.png" alt="Chakra Ui" />
+            <img
+              src="https://www.svgrepo.com/show/330132/chakraui.svg"
+              alt="Chakra Ui"
+            />
             <h1>Chakra Ui</h1>
+          </div>
+
+          <div>
+            <img
+              src="https://www.svgrepo.com/show/354112/nextjs.svg"
+              alt="Nextjs"
+            />
+            <h1>Next JS</h1>
           </div>
 
           <div>
@@ -57,6 +68,7 @@ function Skills() {
             />
             <h1>Redux</h1>
           </div>
+
           <div>
             <img
               src="https://chiranjeev-thapliyal.vercel.app/svg/nodejs.svg"
@@ -67,8 +79,8 @@ function Skills() {
 
           <div>
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKmtAv2G_LoVvYzVphgkaW6W1yj3z0tR7igw&usqp=CAU"
-              alt="Express js"
+              src="https://www.svgrepo.com/show/330398/express.svg"
+              alt="Express"
             />
 
             <h1>Express Js</h1>
@@ -84,10 +96,42 @@ function Skills() {
 
           <div>
             <img
-              src="https://images.unsplash.com/photo-1654277041218-84424c78f0ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=862&q=80"
-              alt="github"
+              src="https://www.svgrepo.com/show/354272/redis.svg"
+              alt="Redis"
+            />
+            <h1>Redis</h1>
+          </div>
+
+          <div>
+            <img
+              src="https://www.svgrepo.com/show/378420/github-fill.svg"
+              alt="GIthub"
             />
             <h1>GitHub</h1>
+          </div>
+
+          <div>
+            <img
+              src="https://www.svgrepo.com/show/452129/vs-code.svg"
+              alt="VS Code"
+            />
+            <h1>VS Code</h1>
+          </div>
+
+          <div>
+            <img
+              src="https://www.svgrepo.com/show/376339/netlify.svg"
+              alt="Postman"
+            />
+            <h1>Netlify</h1>
+          </div>
+
+          <div>
+            <img
+              src="https://www.svgrepo.com/show/354202/postman-icon.svg"
+              alt="Postman"
+            />
+            <h1>Postman</h1>
           </div>
         </div>
       </div>

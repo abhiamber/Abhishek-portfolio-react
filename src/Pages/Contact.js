@@ -14,29 +14,31 @@ function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    if(e.target[0].value && e.target[1].value && e.target[2].value && e.target[3].value){
+    if (
+      e.target[0].value &&
+      e.target[1].value &&
+      e.target[2].value &&
+      e.target[3].value
+    ) {
       emailjs
-      .sendForm(
-        "service_d072n06",
-        "template_tvrw2fl",
-        form.current,
-        "1JaJfeovVZk3Od327"
-      )
-      .then(
-        (result) => {
-          alert("Successfull")
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-
-    }else{
-      alert("Please fill the form") 
-       }
-
-    
+        .sendForm(
+          "service_d072n06",
+          "template_tvrw2fl",
+          form.current,
+          "1JaJfeovVZk3Od327"
+        )
+        .then(
+          (result) => {
+            alert("Successfull");
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+    } else {
+      alert("Please fill the form");
+    }
   };
 
   return (
@@ -71,10 +73,10 @@ function Contact() {
             </div>
 
             <div className={style.reactIcon}>
-              <AiFillLinkedin  className={style.icon}/>
+              <AiFillLinkedin className={style.icon} />
               <p>
                 <a
-                  href=" https://www.linkedin.com/in/abhishek-kumar-amber/"
+                  href="https://www.linkedin.com/in/abhishekamber"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -94,10 +96,14 @@ function Contact() {
             <h1>Message me</h1>
             <div className={style.formsection}>
               <form ref={form} onSubmit={sendEmail}>
-                <input type="text" name="user_name" placeholder="Name" /><br />
-                <input type="email" name="user_email" placeholder="Email" /><br />
-                <input type="text" name="subject"  placeholder="Subject"/><br />
-                <textarea  type="text" name="message"  placeholder="Message" /><br />
+                <input type="text" name="user_name" placeholder="Name" />
+                <br />
+                <input type="email" name="user_email" placeholder="Email" />
+                <br />
+                <input type="text" name="subject" placeholder="Subject" />
+                <br />
+                <textarea type="text" name="message" placeholder="Message" />
+                <br />
                 <input type="submit" value="Send" />
               </form>
             </div>

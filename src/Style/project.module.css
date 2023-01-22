@@ -1,6 +1,6 @@
 .containers {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Source Code Pro", monospace;
+  font-family: "Work Sans", sans-serif;
   height: auto;
   color: whitesmoke;
   min-height: 500px;
@@ -12,11 +12,12 @@
   background: -webkit-linear-gradient(to bottom, #434343, #000000);
   background: linear-gradient(to bottom, #434343, #000000);
   margin-top: -40px;
+  margin-bottom: 20px;
 }
 
 .about {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Source Code Pro", monospace;
+  font-family: "Work Sans", sans-serif;
   color: whitesmoke;
   height: auto;
   min-height: 500px;
@@ -40,10 +41,10 @@
   text-underline-offset: 12px;
 }
 .profiles {
-  width: 83%;
+  width: 86%;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(1, 1fr);
   justify-content: space-between;
   gap: 30px;
@@ -52,8 +53,10 @@
 }
 
 .profiles > div {
-  width: 100%;
+  /* width: 95%; */
   cursor: pointer;
+  /* margin: auto; */
+  /* margin-right: 18px; */
   height: auto;
   background: rgb(10, 10, 10);
   color: whitesmoke;
@@ -63,6 +66,7 @@
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+  padding: 15px;
 }
 
 .profiles > div:hover {
@@ -76,10 +80,6 @@
   background: #92bcb5;
 }
 
-.profiles > div > p {
-  text-align: justify;
-  padding: 9px;
-}
 .hoisting > button {
   font-size: 15px;
   padding: 4px 8px;
@@ -101,7 +101,8 @@
 }
 
 .profiles > div > img {
-  width: 70%;
+  margin-top: 15px;
+  width: 87%;
   height: 250px;
 }
 
@@ -118,7 +119,7 @@
   .profiles {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    /* grid-template-rows: repeat(3, 1fr); */
   }
 
   /* .titles>p{
@@ -136,8 +137,27 @@
 
   .profiles {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
     gap: 35px;
   }
+}
+
+.profiles > div > p {
+  text-align: center;
+  /* padding: 0, 9px; */
+  line-height: 28px;
+  /* margin: 8px, 35px; */
+  font-size: 20px;
+
+  font-family: "Source Code Pro", monospace;
+  font-family: "Work Sans", sans-serif;
+}
+
+.profiles > div > span {
+  text-align: center;
+  /* padding-right: 9px; */
+  line-height: 28px;
+  /* margin: 15px; */
+  font-size: 17px;
 }

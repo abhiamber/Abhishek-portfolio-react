@@ -33,7 +33,7 @@
   text-underline-offset: 12px;
 }
 .profiles {
-  width: 80%;
+  width: 87%;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -66,10 +66,12 @@
 }
 
 .profiles > div > img {
-  width: 100%;
+  width: 80%;
   height: 100px;
 }
-
+.profiles > div > h1 {
+  font-size: 27px;
+}
 @media (min-width: 20px) and (max-width: 480px) {
   .containers {
     height: auto;

@@ -17,14 +17,14 @@ function Project() {
         <div className={style.profiles}>
           <div>
             <img
-              src="https://images.unsplash.com/photo-1559333086-b0a56225a93c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fHZhY2F0aW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              src="https://user-images.githubusercontent.com/102507444/213923487-91c88f80-7d1f-49db-9e7b-66c1d0659cab.png"
               alt="TripVilaas"
             />
             <h1>Tripvillas</h1>
             <p>
               Tripvillas is one of Asia's largest Holiday Home Rental Companies.
             </p>
-            Tech Stack: <span>HTML5, CSS 3, JavaScript</span>
+            Tech Stack: <span >HTML5, CSS 3, JavaScript</span>
             <br /> <br />
             <div className={style.hoisting}>
               <button>
@@ -53,7 +53,7 @@ function Project() {
 
           <div>
             <img
-              src="https://www.kindmeal.my/photos/article/20/20186-l.jpg"
+              src="https://user-images.githubusercontent.com/102507444/210265588-bf6a5fe7-62ae-4269-9197-bbbb0b1bdc63.png"
               alt="KindMeal"
             />
             <h1>Kindmeal.my</h1>
@@ -89,7 +89,7 @@ function Project() {
 
           <div>
             <img
-              src="https://media.istockphoto.com/photos/children-visiting-the-library-picture-id1421824569?b=1&k=20&m=1421824569&s=170667a&w=0&h=LrBS7IR6nlDn1mi-_W5j1inArGZnG-nsgYSq7kF7okU="
+              src="https://i.postimg.cc/bN0yLgLP/Screenshot-1075.png"
               alt="IdeaKart"
             />
             <h1>IdeaKart</h1>
@@ -126,7 +126,7 @@ function Project() {
 
           <div>
             <img
-              src="https://media.istockphoto.com/photos/children-visiting-the-library-picture-id1421824569?b=1&k=20&m=1421824569&s=170667a&w=0&h=LrBS7IR6nlDn1mi-_W5j1inArGZnG-nsgYSq7kF7okU="
+              src="https://i.postimg.cc/bN0yLgLP/Screenshot-1075.png"
               alt="Ideakart"
             />
             <h1>Ideakart</h1>
@@ -164,7 +164,7 @@ function Project() {
 
           <div>
             <img
-              src="https://static.thcdn.com/images/medium/webp/widgets/121-us/28/600x600-065228.jpeg"
+              src="https://i.postimg.cc/Zq4CZvmD/Web-capture-19-12-2022-173114-timely-cucurucho-1b7757-netlify-app.jpg"
               alt="SkinCare"
             />
             <h1>Skin Store</h1>
@@ -204,16 +204,14 @@ function Project() {
 
           <div>
             <img
-              src="https://code-projects.org/wp-content/uploads/2020/11/chat.png"
+              src="https://user-images.githubusercontent.com/102507444/210861508-43008ca8-8f9f-490e-ae88-658e0c0aae9f.png"
               // src={chatappimg}
               alt="chatapp"
             />
             <h1>Chat Application</h1>
             <p>
               This is the chat application where user can create chat one to one
-              and in group as well. User can create group and they can remove
-              the people from group and they can add new user as well in the
-              group.
+              and in group as well.
             </p>
             Tech Stack:{" "}
             <span>

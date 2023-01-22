@@ -29,7 +29,8 @@
 }
 
 .titles > p {
-  padding-top: 50px;
+  /* margin-top: 10px; */
+  padding-top: 80px;
   color: whitesmoke;
   font-size: 2.5em;
   font-weight: 400;
@@ -64,12 +65,15 @@
   line-height: 22px;
 }
 .textPart {
-  margin-top: 80px;
+  margin-top: 60px;
   padding-bottom: 30px;
 }
 
 @media (min-width: 20px) and (max-width: 480px) {
   .containers {
+    height: auto;
+  }
+  .about {
     height: auto;
   }
 
@@ -109,8 +113,18 @@
     font-size: 20px;
     word-spacing: normal;
   }
+  .textPart {
+    margin-top: 20px;
+    /* padding-bottom: 30px; */
+  }
 
   .textanimation {
     height: 125px;
+  }
+  .containers {
+    height: auto;
+  }
+  .about {
+    height: auto;
   }
 }
