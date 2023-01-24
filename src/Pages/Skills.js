@@ -11,7 +11,7 @@ function Skills() {
       }
     >
       <div className={style.titles}>
-        <p>My skills</p>
+        <p>My skills & Tools</p>
         <div className={style.profiles}>
           <div>
             <img
