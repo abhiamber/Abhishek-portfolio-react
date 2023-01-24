@@ -17,42 +17,6 @@ function Project() {
         <div className={style.profiles}>
           <div>
             <img
-              src="https://user-images.githubusercontent.com/102507444/213923487-91c88f80-7d1f-49db-9e7b-66c1d0659cab.png"
-              alt="TripVilaas"
-            />
-            <h1>Tripvillas</h1>
-            <p>
-              Tripvillas is one of Asia's largest Holiday Home Rental Companies.
-            </p>
-            Tech Stack: <span>HTML5, CSS 3, JavaScript</span>
-            <br /> <br />
-            <div className={style.hoisting}>
-              <button>
-                {" "}
-                <a
-                  href="https://github.com/abhiamber/enchanted-pest-5256"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  Git Repo
-                </a>{" "}
-              </button>
-              <button>
-                {" "}
-                <a
-                  href="https://tripvillascloneproject.netlify.app/index.html"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Live Site
-                </a>{" "}
-              </button>
-            </div>
-          </div>
-
-          <div>
-            <img
               src="https://user-images.githubusercontent.com/102507444/210265588-bf6a5fe7-62ae-4269-9197-bbbb0b1bdc63.png"
               alt="KindMeal"
             />
