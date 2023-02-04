@@ -27,6 +27,13 @@ function Navbar() {
   };
 
   function HandleHamberg(data) {
+    if (data === "Resume") {
+      window.open(
+        "https://drive.google.com/file/d/1M3hLDMToWV3vpjh5AjfpCT48AN1DyFgE/view?usp=sharing",
+        "_blank"
+      );
+    }
+
     setHam(!ham);
   }
 
@@ -67,9 +74,7 @@ function Navbar() {
 
           <a
             onClick={() => HandleHamberg("Resume")}
-            href="https://drive.google.com/file/d/1M3hLDMToWV3vpjh5AjfpCT48AN1DyFgE/view?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="https://drive.google.com/uc?id=1M3hLDMToWV3vpjh5AjfpCT48AN1DyFgE&export=download"
           >
             Resume
           </a>
