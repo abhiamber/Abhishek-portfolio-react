@@ -28,6 +28,7 @@ function Navbar() {
 
   function HandleHamberg(data) {
     if (data === "Resume") {
+      console.log("scmsk");
       window.open(
         "https://drive.google.com/file/d/1M3hLDMToWV3vpjh5AjfpCT48AN1DyFgE/view?usp=sharing",
         "_blank"
