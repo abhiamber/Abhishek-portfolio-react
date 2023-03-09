@@ -227,7 +227,7 @@ function Project() {
               <button>
                 {" "}
                 <a
-                  href="https://github.com/abhiamber/resonant-dinosaurs-925"
+                  href="https://github.com/abhiamber/Purpple.com-Clone"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -238,7 +238,7 @@ function Project() {
               <button>
                 {" "}
                 <a
-                  href="https://frontend-eight-tawny-20.vercel.app/"
+                  href="https://frontend-lyart-alpha.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
