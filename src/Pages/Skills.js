@@ -133,6 +133,14 @@ function Skills() {
             />
             <h1>Postman</h1>
           </div>
+
+          <div>
+            <img
+              src="https://img.icons8.com/fluency/344/mysql-logo.png"
+              alt="Postman"
+            />
+            <h1>My SQL</h1>
+          </div>
         </div>
       </div>
     </div>

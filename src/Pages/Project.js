@@ -22,7 +22,7 @@ function Project() {
             />
             <h1>Kindmeal.my</h1>
             <p>
-              KindMeal is Malaysia's pioneering meat-free lifestyle platfom.{" "}
+            Developed a clone of KindMeal, a meal-sharing platform, with a focus on replicating its core features and functionality.
             </p>
             Tech Stack: <span>HTML5, CSS 3, JavaScript, React Js</span>
             <br /> <br />
@@ -90,22 +90,21 @@ function Project() {
 
           <div>
             <img
-              src="https://i.postimg.cc/bN0yLgLP/Screenshot-1075.png"
+              src="https://github.com/user-attachments/assets/ab7af35f-ab06-4fa9-a70b-46d031aa96e9"
               alt="Ideakart"
             />
-            <h1>Ideakart</h1>
+            <h1>Task Management</h1>
             <p>
-              Ideakart is a site that gives you an idea about the book you want
-              to buy.
+            Built a task management web application with intuitive user interfaces and robust functionality. Features include task creation, categorization, prioritization, deadline tracking, and user collaboration. Integrated real-time updates for seamless team productivity. Designed with scalability and a focus on user experience.
             </p>
             Tech Stack:{" "}
-            <span>HTML5, CSS 3, React Js, Chakra UI, Express JS, MongoDb</span>
+            <span>HTML5, CSS 3, React Js, Express JS, MongoDb</span>
             <br /> <br />
             <div className={style.hoisting}>
               <button>
                 {" "}
                 <a
-                  href="https://github.com/Anukriti-Nawani/IdeaKart-hilarious-flame-4763"
+                  href="https://github.com/abhiamber/Task-management-web-application"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -116,7 +115,7 @@ function Project() {
               <button>
                 {" "}
                 <a
-                  href="https://playful-hummingbird-6d8d46.netlify.app/"
+                  href="https://task-management-web-application-beige.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -174,8 +173,8 @@ function Project() {
             />
             <h1>Chat Application</h1>
             <p>
-              This is the chat application where user can create chat one to one
-              and in group as well.
+            Developed an instant communication platform with user authentication, supporting real-time one-to-one/group
+            chats and video calls, with call management features like ring notifications, call control.
             </p>
             Tech Stack:{" "}
             <span>
@@ -198,7 +197,7 @@ function Project() {
               <button>
                 {" "}
                 <a
-                  href="https://gleeful-marigold-cd7ebf.netlify.app/"
+                  href="https://chatapp2121.netlify.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -215,8 +214,7 @@ function Project() {
             />
             <h1>Purplle</h1>
             <p>
-              Purplle.com is one of India's largest e-beauty destinations with
-              more than 7 million monthly active users.
+            Developed a full-stack e-commerce platform with advanced user and admin functionalities. Features include dynamic product catalog, secure checkout, real-time order tracking, and an admin panel for inventory, orders and user management. Designed for scalability and seamless user experience.
             </p>
             Tech Stack:{" "}
             <span>
