@@ -1,4 +1,3 @@
-// import { Link } from "react-router-dom";
 import { Footer } from "../component/footer";
 import GIthub from "../component/GIthub";
 import style from "../Style/Home.module.css";
@@ -6,14 +5,12 @@ import About from "./About";
 import Contact from "./Contact";
 import Project from "./Project";
 import Skills from "./Skills";
-// import Abhishek_Amber_Resume from "../resume/Abhishek_ Amber_Resume.pdf"
-
 import { TypeAnimation } from "react-type-animation";
 
 function Home() {
   const handleClick = () => {
     window.open(
-      "https://drive.google.com/file/d/1M3hLDMToWV3vpjh5AjfpCT48AN1DyFgE/view?usp=sharing",
+      "https://drive.google.com/file/d/1wTu9fJviDZZnHBMrxTRK4bU9Ft9YMXg8/view?usp=sharing",
       "_blank"
     );
   };
@@ -54,6 +51,3 @@ function Home() {
 }
 export default Home;
 
-// https://drive.google.com/file/d/1M3hLDMToWV3vpjh5AjfpCT48AN1DyFgE/view?usp=sharing
-
-// https://drive.google.com/uc?id=1M3hLDMToWV3vpjh5AjfpCT48AN1DyFgE&export=download

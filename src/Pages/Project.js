@@ -17,12 +17,12 @@ function Project() {
         <div className={style.profiles}>
           <div>
             <img
-              src="https://user-images.githubusercontent.com/102507444/210265588-bf6a5fe7-62ae-4269-9197-bbbb0b1bdc63.png"
+              src="https://github.com/user-attachments/assets/9dce3184-6703-4015-9398-85b993f4f903"
               alt="KindMeal"
             />
             <h1>Kindmeal.my</h1>
             <p>
-            Developed a clone of KindMeal, a meal-sharing platform, with a focus on replicating its core features and functionality.
+              Developed a clone of KindMeal, a meal-sharing platform, with a focus on replicating its core features and functionality.
             </p>
             Tech Stack: <span>HTML5, CSS 3, JavaScript, React Js</span>
             <br /> <br />
@@ -95,7 +95,7 @@ function Project() {
             />
             <h1>Task Management</h1>
             <p>
-            Built a task management web application with intuitive user interfaces and robust functionality. Features include task creation, categorization, prioritization, deadline tracking, and user collaboration. Integrated real-time updates for seamless team productivity. Designed with scalability and a focus on user experience.
+              Built a task management web application with intuitive user interfaces and robust functionality. Features include task creation, categorization, prioritization, deadline tracking, and user collaboration. Integrated real-time updates for seamless team productivity. Designed with scalability and a focus on user experience.
             </p>
             Tech Stack:{" "}
             <span>HTML5, CSS 3, React Js, Express JS, MongoDb</span>
@@ -167,14 +167,14 @@ function Project() {
 
           <div>
             <img
-              src="https://user-images.githubusercontent.com/102507444/210861508-43008ca8-8f9f-490e-ae88-658e0c0aae9f.png"
+              src="https://github.com/user-attachments/assets/9192883f-45c8-4561-ac93-56339b30ed2b"
               // src={chatappimg}
               alt="chatapp"
             />
             <h1>Chat Application</h1>
             <p>
-            Developed an instant communication platform with user authentication, supporting real-time one-to-one/group
-            chats and video calls, with call management features like ring notifications, call control.
+              Developed an instant communication platform with user authentication, supporting real-time one-to-one/group
+              chats and video calls, with call management features like ring notifications, call control.
             </p>
             Tech Stack:{" "}
             <span>
@@ -209,12 +209,12 @@ function Project() {
 
           <div>
             <img
-              src="https://user-images.githubusercontent.com/102507444/213928090-cbaf214f-8d71-4e0a-b569-4fc2a0e71889.png"
+              src="https://github.com/user-attachments/assets/671496b9-e410-451a-a9b3-776c2280ba6d"
               alt="Purpelbeauty"
             />
             <h1>Purplle</h1>
             <p>
-            Developed a full-stack e-commerce platform with advanced user and admin functionalities. Features include dynamic product catalog, secure checkout, real-time order tracking, and an admin panel for inventory, orders and user management. Designed for scalability and seamless user experience.
+              Developed a full-stack e-commerce platform with advanced user and admin functionalities. Features include dynamic product catalog, secure checkout, real-time order tracking, and an admin panel for inventory, orders and user management. Designed for scalability and seamless user experience.
             </p>
             Tech Stack:{" "}
             <span>
@@ -237,6 +237,44 @@ function Project() {
                 {" "}
                 <a
                   href="https://frontend-lyart-alpha.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live Site
+                </a>{" "}
+              </button>
+            </div>
+          </div>
+          <div>
+            <img
+              src="https://github.com/user-attachments/assets/bafb30b6-67b7-49a8-8bae-4a5870ca77c5"
+              alt="aiassistant"
+            />
+            <h1>
+              Context-Aware AI Assistant</h1>
+            <p>
+              Built an AI-powered personal assistant using tool calling, RAG, vector search, and memory caching to deliver context-aware responses            </p>
+            Tech Stack:{" "}
+            <span>
+              HTML5, Tailwind CSS, JavaScript, LangChain, Express JS, Groq Cloud API, Tavily, Pinecone, Cohere Embedding Model, Node Cache
+            </span>
+            <br /> <br />
+            <div className={style.hoisting}>
+              <button>
+                {" "}
+                <a
+                  href="https://github.com/abhiamber/chat-boat-ai"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  Git Repo
+                </a>{" "}
+              </button>
+              <button>
+                {" "}
+                <a
+                  href="https://assistifyaiagent.netlify.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

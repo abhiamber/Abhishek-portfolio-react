@@ -76,7 +76,7 @@ function Contact() {
               <AiFillLinkedin className={style.icon} />
               <p>
                 <a
-                  href="https://www.linkedin.com/in/abhishekamber"
+                  href="https://www.linkedin.com/in/abhishek-kumar-27a73b327/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -114,11 +114,3 @@ function Contact() {
   );
 }
 export default Contact;
-
-// <form  onSubmit={handleSubmit}>
-// <input type="text" placeholder="Name" /> <br />
-// <input type="email" placeholder="Email" /> <br />
-// <input type="text" placeholder="Subject" /> <br />
-// <textArea type="text" placeholder="Message" /> <br />
-// <input type="submit" value="Send message" />
-// </form>

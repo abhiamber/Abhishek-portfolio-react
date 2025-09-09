@@ -25,7 +25,6 @@ function About() {
           <div className={style.textPart}>
             <div className={style.textanimation}>
               <TypeAnimation
-                // Same String at the start will only be typed once, initially
                 sequence={[
                   "I am Abhishek Kumar Amber Web Developer",
                   1000,
@@ -44,10 +43,7 @@ function About() {
             </div>
 
             <p>
-              A passionate Full Stack Web Developer dedicated to robust
-              applications. Extensive expertise in website architecture and web
-              design and web API design. Problem-solving mindset with a goal to
-              optimize my application for better stability.
+              Full Stack Developer with 3.5+ years of experience, specializing in building scalable, high-performance web applications with React.js, Next.js, Node.js, Express.js, and SQL. Proficient in agile development, performance optimization, and cross-functional collaboration, focused on delivering clean, efficient code and seamless user experiences.
             </p>
           </div>
         </div>
